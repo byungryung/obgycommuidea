@@ -4,12 +4,18 @@
 \item[\dsjuridical] C509 상세불명의 유방의 악성신생물의증(or 배제진단)
 \item[\dsjuridical] N63 달리 명시되지 않은 유방의 결절
 \item[\dsjuridical] N644 유방통
-\item[\dsmedical] C8506 침생검(표재성)-유방 림프절
-\item[\dsmedical] C5912 병리조직검사-생검(4-6개)
+\item[\dsmedical] \sout{C8506 침생검(표재성)-유방 림프절}
+\item[\dsmedical] C8641 유방생검(편측)-침생검 FNA, Core Bx, Gun Bx, Mammotome
+\item[\dsmedical] C8642 유방생검(편측)-절개생검
+\item[\dsmedical] \sout{C5912 병리조직검사-생검(4-6개)}
+\item[\dsmedical] 조직병리검사(1장기당) LEVEL B.
 \item[\dsmedical] EB562 유도초음파 \myexplfn{887.80} 원
 \item[\dsmedical] EB421 유방\bullet 액와부 초음파 Breast\bullet Axilla Ultrasonography \myexplfn{1037.52}원
+\item[\dsmedical] M0011036  mission disposable core biopsy instruement *
+\item[\dsmedical] M0012036 Trueguide disposable coxaxial biopsy needel *
 \item[\dsmedical] 기타 lidocain or labo등 
 \end{itemize}
+* mission 과 true guide 는 각각 CNB needle 과 guidance
 }%
 {\begin{itemize}\tightlist
 \item 유방조직검사도 청구 가능합니다
@@ -29,3 +35,27 @@
 \item 방엔 상관없지만 자궁내막은 확인해야된다고되있습니다 기간은 1년인지 6개월인지 기억이안나네요
 \end{itemize}
 }
+
+\subsection{Cytology 행위료 in OBGY}
+\tabulinesep =_2mm^2mm
+\begin{tabu} to\linewidth {|X[1,l]|X[1,l]|X[2,l]|X[3,l]|} \tabucline[.5pt]{-}
+\rowcolor{ForestGreen!40} 장기   & 코드 & 이름 & 설명 \\ \tabucline[.5pt]{-}
+\rowcolor{Yellow!40} 피부 & C8501 & 침생검(표재성) & FNA \\ \tabucline[.5pt]{-}
+\rowcolor{Yellow!40} 유방 & C8641 & 유방생검(편측)-침생검 & FNA, core Bx, Gun Bx, Mammotome \\ \tabucline[.5pt]{2-4}
+\rowcolor{Yellow!40}  & C8642 & 유방생검(편측)-절개생검 &  \\ \tabucline[.5pt]{-}
+\rowcolor{Yellow!40} 갑상선 & C8591 & 갑상선생검-침생검 & FNA \\ \tabucline[.5pt]{-}
+\end{tabu}
+\par
+대칭기관에 대한 양측검사를 하였을 때에도 “편측”이라는 표기가 없는 한 소정 점수만 산정한다 \par
+
+\leftrod{액상흡인세포병리검사의 인정기준}\par
+
+폐, 갑상선, 췌장 종양 진단 목적으로 실시하는 액상흡인세포병리검사는 다음과 같은 경우에 요양급여를 인정함. 다만, 동일 날 실시한 흡인세포병리검사와 중복 산정은 인정하지 아니함.\par
+\emph{-다    음-}
+\begin{enumerate}[가.]\tightlist
+\item 영상의학적 검사에서 이상 소견이 확인된 폐 병변 또는 췌장 병변에 시행한 경우
+\item 영상의학적 검사에서 확인된 갑상선 결절에 시행한 경우
+\end{enumerate}
+보건복지부 고시 제2017-152호(2017.9.1.)\par
+
+액상흡인세포병리검사:C5626
